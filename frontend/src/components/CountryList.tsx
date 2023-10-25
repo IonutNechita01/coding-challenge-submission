@@ -34,14 +34,17 @@ const CountryList = ({
                 }`}
                 onClick={() => onCountrySelect(country.code)}
               >
-                <p>{country.name}</p>
+                <p>{country.commonName}</p>
               </div>
             ))
           ) : (
             <ThreeDots />
           )}
         </div>
-        <input type="text" onChange={onCountryFilter}></input>
+        <div className="search-bar">
+        <p>Search for country</p>
+        <input id="search-form" type="text" onChange={onCountryFilter}></input>
+        </div>
       </div>
       <button className="button" onClick={hideCountries}>
         {!showCountriesList ? "Hide countries list" : "Show countries list"}

@@ -15,7 +15,7 @@ const SelectedCountries = ({
           {countries.map(
             (country, index) =>
               selectedCountriesCode.some((c) => c === country.code) && (
-                <li key={index}>{country.name}</li>
+                <li key={index}>{country.commonName}</li>
               )
           )}
         </ul>

@@ -4,15 +4,18 @@ I have used the following technologies:
 - ReactJs for the frontend
 - NodeJs for the backend
 # Run the project
+- nodeJs need to be installed on your machine
+- npm need to be installed on your machine
 ## Backend
 - Go to the backend folder `cd ./backend`
 - Run the server `node .`
-note:nodeJs need to be installed on your machine
+## Backend tests
+- Go to the backend folder `cd ./backend`
+- Run the tests `npx jest`
 ## Frontend
 - Go to the frontend folder `cd ./frontend`
 - Install the dependencies `npm install`
 - Run the server `npm run dev`
-note: npm need to be installed on your machine
 # How to use the app
 - Go to http://localhost:5173 to access the app on the default port
 - Select the countries you want to know more about
