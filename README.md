@@ -14,7 +14,7 @@ I have used the following technologies:
 - Run the tests `npx jest`
 ## Frontend
 - Go to the frontend folder `cd ./frontend`
-- Install the dependencies `npm install`
+- Install the dependencies `npm install` or `npm i`
 - Run the server `npm run dev`
 # How to use the app
 - Go to http://localhost:5173 to access the app on the default port
